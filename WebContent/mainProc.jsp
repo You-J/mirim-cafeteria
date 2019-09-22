@@ -64,9 +64,9 @@
 	ResultSet rs = null;
 	
 		try{
-			String url = "jdbc:mysql://localhost:3306/mirim";
-			String user = "test";
-			String pass = "1234";
+			String url = "jdbc:mysql://localhost:number/user_name";
+			String user = "user_name";
+			String pass = "password";
 			
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(url,user,pass);
